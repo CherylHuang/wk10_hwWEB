@@ -1,0 +1,213 @@
+@font-face {
+  font-family: 'SukhumvitSet-Thin';
+  src: url(font/SukhumvitSet-Thin.ttf) format("truetype");
+}
+.area{
+  position: relative;
+}
+.left{
+  position: absolute;
+  margin-left: 409px;
+}
+.left2{
+  position: absolute;
+  margin-left: 871px;
+}
+.left3{
+  position: absolute;
+  margin-left: 409px;
+  margin-top: 450px;
+}
+body{
+  max-width: 1280px;
+  margin: auto;
+}
+p{
+  display: block;
+  font-family: SukhumvitSet-Thin;
+  font-size: 30px;
+  color: #898a84;
+  margin: 0;
+  padding: 0;
+}
+#icon1 > p{
+  color: #75602e;
+}
+#icon2 > p{
+  color: #3e6964;
+}
+#icon3 > p{
+  color: #7a8c6b;
+}
+.icon_title{
+  font-size: 48px;
+}
+.products{
+  font-size: 24px;
+}
+.pro_name{
+  font-size: 60px;
+}
+#main{
+  position: relative;
+  z-index: 0;
+}
+#logo{
+  position: absolute;
+  z-index: 1;
+  margin-top: 14px;
+  margin-left: 26px;
+}
+ul{
+  list-style: none;
+}
+.nav{
+  position: absolute;
+  list-style: none;
+  z-index: 1;
+  margin: 46px 0 0 108px;
+  padding: 0;
+}
+.nav > li{
+  float: left;
+  margin-left: 19px;
+  margin-right: -20px;
+  margin-top: -14px;
+  padding: 0;
+  font-family: SukhumvitSet-Thin;
+  font-size: 36px;
+}
+.nav > li > a{
+  display: block;
+  padding: 0 20px 0 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #000000;
+}
+.nav > li > a:hover{
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+}
+.div_size1{
+  width: 409px;
+  height: 450px;
+  position: relative;
+  clear: both;
+}
+.div_size2{
+  width: 871px;
+  height: 450px;
+  position: relative;
+  float: left;
+}
+/*area1*/
+#icon1{
+  background-color: #eac15d;
+  margin-top: -6px;
+}
+#icon1 > a > img{
+  position: absolute;
+  margin: 165px 50px 74px 67px;
+}
+#cooking{
+  position: absolute;
+  margin: 320px 129px 5px 129px;
+}
+#spro1{
+  position: absolute;
+  margin: 371px 149px 55px 149px;
+}
+#pro1{
+  background-color: #e9e9e5;
+}
+#price1{
+  position: absolute;
+  margin: 91px 0 0 31px;
+}
+#pro1 > img{
+  position: absolute;
+  margin: 70px 0 0 382px;
+}
+#product1{
+  position: absolute;
+  text-align: center;
+  margin: 148px 90px 171px 654px;
+}
+
+/*area2*/
+#pro2{
+  background-color: #ffffff;
+}
+#price2{
+  position: absolute;
+  margin: 90px 0 0 31px;
+}
+#pro2 > img{
+  position: absolute;
+  margin: 45px 0 0 230px;
+}
+#product2{
+  position: absolute;
+  text-align: center;
+  margin: 155px 0 0 494px;
+}
+#icon2{
+  background-color: #7cd3c8;
+}
+#icon2 > a > img{
+  position: absolute;
+  margin: 74px 0 0 124px;
+  z-index: 2;
+}
+#household{
+  position: absolute;
+  font-size: 35px;
+  margin: 333px 0 0 75px;
+}
+#spro2{
+  position: absolute;
+  margin: 373px 0 0 149px;
+}
+
+/*area3*/
+#icon3{
+  background-color: #bfdba7;
+}
+#icon3 > a > img{
+  position: absolute;
+  margin: 138px 0 0 76px;
+}
+#serving{
+  position: absolute;
+  margin: 330px 0 0 137px;
+}
+#spro3{
+  position: absolute;
+  margin: 387px 0 0 147px;
+}
+#pro3{
+  background-color: #f4f4d8;
+}
+#price3{
+  position: absolute;
+  margin: 91px 0 0 31px;
+}
+#pro3 > img{
+  position: absolute;
+  margin: 56px 0 0 256px;
+}
+#product3{
+  position: absolute;
+  text-align: center;
+  margin: 90px 0 0 535px;
+}
+
+footer{
+  clear: both;
+  height: 102px;
+  position: relative;
+}
+footer > p{
+  position: absolute;
+  margin: 36px 513px 30px 513px;
+}
